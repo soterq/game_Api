@@ -7,6 +7,8 @@ public class Skill {
     private Long id;
     private String name;
     private String type;
+    private int impact;
+    private int lvl;
     private boolean isMassEffect;
     private int damage;
     private boolean isAttached;

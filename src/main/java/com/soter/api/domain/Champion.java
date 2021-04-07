@@ -3,7 +3,7 @@ package com.soter.api.domain;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Hero {
+public class Champion<T extends GameObject> {
 
     private Long id;
 
@@ -21,7 +21,7 @@ public class Hero {
 
     private double lifeSteal;
 
-    private List<Skill> activeSkills = new ArrayList<>();
+    List<Hero> heroes = new ArrayList<>();
 
-
+    List<T> inventory = new ArrayList<>();
 }
