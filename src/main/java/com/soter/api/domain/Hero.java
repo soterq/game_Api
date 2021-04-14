@@ -1,12 +1,14 @@
 package com.soter.api.domain;
 
+import com.soter.api.enums.ClassType;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class Hero {
 
     private Long id;
-
+    private ClassType classType;
     private String name;
     private String type;
 

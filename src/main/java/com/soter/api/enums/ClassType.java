@@ -1,6 +1,6 @@
 package com.soter.api.enums;
 
-public enum AccessoriesType {
+public enum  ClassType {
     TYPE_A,
     TYPE_B,
     TYPE_C,

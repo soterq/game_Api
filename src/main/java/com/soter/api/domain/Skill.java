@@ -1,12 +1,13 @@
 package com.soter.api.domain;
 
+import com.soter.api.enums.ClassType;
 import com.soter.api.enums.SkillDamageType;
 import com.soter.api.enums.SkillType;
 
 public class Skill {
     private Long id;
     private String name;
-    private String type;
+    private ClassType classType;
     private int impact;
     private int lvl;
     private boolean isMassEffect;
