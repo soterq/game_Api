@@ -10,6 +10,8 @@ public class Hero {
     private String name;
     private String type;
 
+    private int lvl;
+
     private double hp;
     private double mana;
 
@@ -20,6 +22,7 @@ public class Hero {
     private double magicResist;
 
     private double lifeSteal;
+    private double speed;
 
     private List<Skill> activeSkills = new ArrayList<>();
 
