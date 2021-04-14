@@ -1,10 +1,13 @@
 package com.soter.api.domain;
 
 import com.soter.api.enums.ClassType;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
-
+@Getter
+@Setter
 public class Hero {
 
     private Long id;
@@ -13,7 +16,7 @@ public class Hero {
     private String type;
 
     private int lvl;
-
+    private int placeInTeam;
     private double hp;
     private double mana;
 
